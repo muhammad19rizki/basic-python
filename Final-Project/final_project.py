@@ -1,5 +1,5 @@
 ##################################################################################################################
-#   Reference :                                                                                                  #
+#   Reference :                                                                                                   #
 #   - https://code.tutsplus.com/id/tutorials/sending-emails-in-python-with-smtp--cms-29975                       #
 #   - https://stackoverflow.com/questions/8856117/how-to-send-email-to-multiple-recipients-using-python-smtplib  #
 #   - https://www.youtube.com/watch?v=JRCJ6RtE3xU&t=1313s                                                        #
@@ -12,8 +12,8 @@ from email.message import EmailMessage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-email ='calegg51@gmail.com'
-password = 'Rizki4499403404405'
+email = input("email: ")
+password = input('password: ')
 
 receiver = open('receiver_list.txt', 'r') 
 dataReceiver = receiver.read().splitlines()
