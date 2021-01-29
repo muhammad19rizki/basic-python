@@ -1,9 +1,8 @@
 ##################################################################################################################
-#                                                                                                                #
-# Reference :                                                                                                    #
+#   Reference :                                                                                                  #
 #   - https://code.tutsplus.com/id/tutorials/sending-emails-in-python-with-smtp--cms-29975                       #
 #   - https://stackoverflow.com/questions/8856117/how-to-send-email-to-multiple-recipients-using-python-smtplib  #
-#   - https://www.youtube.com/watch?v=JRCJ6RtE3xU&t=1313s                                                                                                             #
+#   - https://www.youtube.com/watch?v=JRCJ6RtE3xU&t=1313s                                                        #
 ##################################################################################################################
 
 import os
